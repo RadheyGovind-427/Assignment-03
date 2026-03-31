@@ -1,0 +1,132 @@
+html,
+body {
+  margin: 0%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-justify: auto;
+  font-size: 20px;
+  background: linear-gradient(to right, lightblue, white);
+}
+.search-box {
+  text-align: right;
+  margin: 20px 0;
+}
+#introductions {
+  text-align: center;
+}
+.search-box input {
+  width: 200px;
+  padding: 10px;
+  font-size: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 10px;
+  cursor: pointer;
+}
+p,
+li {
+  overflow-wrap: break-word;
+}
+footer {
+  text-align: center;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  background: #ece2e2;
+}
+header {
+  text-align: center;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  background: #ed76d8;
+  padding-bottom: 5px;
+}
+#intro {
+  border: 1px;
+  border-radius: 3px;
+  border-style: solid;
+  background: #d5bfbf;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+}
+table {
+  /* width: 80%; */
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#hover1:hover {
+  color: red;
+}
+td {
+  width: 20%;
+  height: 40%;
+  border: 1px;
+  border-radius: 3px;
+  border-style: solid;
+  text-align: center;
+}
+td p {
+  padding: 2px;
+  border: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  display: inline-block;
+}
+td :hover {
+  background: #2bf475;
+}
+td img {
+  width: 100%;
+  text-align: center;
+  border: 1px;
+  border-radius: 0px;
+  border-style: solid;
+}
+tr {
+  padding: 40px;
+  margin: 40px;
+  align-self: center;
+}
+header a {
+  display: inline-block;
+  margin: 2px;
+  padding: 2px;
+  text-align: center;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  background: #ece2e2;
+  transition: all 0.3s ease;
+}
+a:hover {
+  background: #2bf475;
+  color: red;
+  transform: scale(1.1);
+}
+li {
+  margin: 4px;
+  padding: 4px;
+}
+
+a {
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
